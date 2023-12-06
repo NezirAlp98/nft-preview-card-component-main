@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* css 'de bu ayarı yap */
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.main{
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 300px;
+    height: 530px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.top-side{
+    width: 100%;
+}
+
+.top-side img{
+    width: 100%;
+    border-radius: 10px;
+}
+.middle-side h1{
+    color: white;
+    margin: 20px 0;
+    font-size: 22px;
+}
+.middle-side p{
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+
+.bottom-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.left-side img{
+    width: 10px;
+}
+
+.left-side p{
+    color: hsl(178, 100%, 50%);
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.right-side img{
+    width: 10px;
+}
+
+.right-side p{
+    color: hsl(215, 51%, 70%);
+}
+
+.line{
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar img{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.avatar p{
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar span{
+    color: white;
+}
